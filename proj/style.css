@@ -20,17 +20,17 @@ body{
 header{
 	width: 100%;
 	background: #000;
-	display: flex;
+	/*display: flex;*/
+	/*justify-content: center;*/
+
 }
 
-.header_logo{
+.header_logo {
 	text-transform: uppercase;
 	color:#fff;
 	font-weight: 800;
 	font-size: 24px;
 	cursor: pointer;
-	margin-top: 56px;
-	margin-left: 12%;
 }
 
 nav{
@@ -38,10 +38,11 @@ nav{
 	margin-left: 29%
 }
 
+
 .topnav a{
 	color: #fff;
 	text-align: center;
-	padding: 12px 16px;
+	padding: 5px 16px;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -63,19 +64,20 @@ main{
 }
 
 main .main_welcome{
-	background: #000;
+	background-image: url('./img/main.jpg');
 	text-align: center;
-	padding:200px 0 410px 0;
+	height: calc(100vh - 81px);
 }
 
 main .main_welcome p{
-	color: #999999;
+	color: #ffffff;
 	font-size: 20px;
 }
 
 main .main_welcome h1{
-	color: #999999;
+	color: #ffffff;
 	font-size: 44px;
+	padding-top: 20vh;
 }
 
 main .main_welcome h1:after{
@@ -88,42 +90,19 @@ main .main_welcome h1:after{
 
 
 .wrapper{
-	width: 76%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 main .main_about{
 	display: flex;
-	padding: 100px 0 100px 0;
-}
-
-.about_right{
-	margin-left: 175px; 
-}
-
-.about_right h1{
-	display: inline-block;
-	border-bottom:  3px solid #dcac45;
-	padding-bottom: 20px;
-}
-
-.about_right p{
-	margin: 30px 0 50px 0;
-	color: #6c6c6c; 
-}
-
-.about_right li{
-	background:url(img/mark.png) 0px no-repeat;
-	padding-left: 25px;
-	margin-top: 10px;
-	color: #5a5a5a;
+	height: calc(100vh);
+	background-image: url('./img/form.jpg');
 }
 
 .mw-100{
 	min-width: 100%;
 }
-
-
 
 
 .main_team{
